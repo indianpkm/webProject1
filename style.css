@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn {
+    color: white;
+    font-weight: 600;
+}
+
+nav {
+    background: #7633f9;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: bisque;
+}
+
+.nav-link:hover {
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.signin>a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    background-color: aliceblue;
+    border-radius: 1.5rem;
+    width: 20%;
+    padding: 0;
+}
+
+.navbarimg {
+    padding: 0;
+    width: 100%;
+}
+
+svg {
+    cursor: pointer;
+    color: #04cbfd;
+}
+
+svg:hover {
+    color: #fd0606;
+}
+
+.university {
+    background: url('https://notesnew.eduwol.com/assets/images/university.svg');
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    transition: all 0.7s linear;
+    text-align: center;
+}
+
+#university {
+    height: 25rem;
+    width: 100%;
+}
+
+.card_image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.university .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.form-control {
+    border-radius: 1rem;
+}
+
+.submit {
+    background-color: #7633f9;
+}
+
+.scroll {
+    /* width: 10rem;
+    height: 10rem; */
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.footele {
+    display: flex;
+    margin: 2rem;
+    gap: 8rem;
+}
+
+.footcontent {
+    gap: 12rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand {}
+.footertext{
+    width: 50%;
+}
+
+@media (max-width:600px) {
+    .navbar-brand {
+        width: 9rem;
+        padding: .2rem;
+    }
+
+    .card-item {
+        display: flex;
+    }
+
+    .card_image {
+        width: 130px;
+        height: 130px;
+        margin: 2rem;
+    }
+
+    .footcontent {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .footele {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-left: .5rem;
+    }
+}
